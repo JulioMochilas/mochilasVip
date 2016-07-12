@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+		
+	<servlet>
+		<servlet-name>AgenciaServlet</servlet-name>
+		<servlet-class>pw2.AgenciaServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AgenciaServlet</servlet-name>
+		<url-pattern>/agencia</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Administrador</servlet-name>
+		<servlet-class>pw2.Administrador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Administrador</servlet-name>
+		<url-pattern>/administrador</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Cliente</servlet-name>
+		<servlet-class>pw2.Cliente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cliente</servlet-name>
+		<url-pattern>/cliente</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>IniciarSesion</servlet-name>
+		<servlet-class>pw2.IniciarSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IniciarSesion</servlet-name>
+		<url-pattern>/iniciarSesion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SaveUsuario</servlet-name>
+		<servlet-class>pw2.SaveUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveUsuario</servlet-name>
+		<url-pattern>/saveUsuario</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>SaveAdmin</servlet-name>
+		<servlet-class>pw2.SaveAdmin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveAdmin</servlet-name>
+		<url-pattern>/saveAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AccionAdministrador</servlet-name>
+		<servlet-class>pw2.AccionAdministrador</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccionAdministrador</servlet-name>
+		<url-pattern>/accionAdministrador</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>CambioServlet</servlet-name>
+		<servlet-class>pw2.CambioServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CambioServlet</servlet-name>
+		<url-pattern>/cambio</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ObtenerClientes</servlet-name>
+		<servlet-class>pw2.ObtenerClientes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ObtenerClientes</servlet-name>
+		<url-pattern>/obtenerClientes</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>SaveCiudad</servlet-name>
+		<servlet-class>pw2.SaveCiudad</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+		<servlet-name>SaveCiudad</servlet-name>
+		<url-pattern>/saveCiudad</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SalirSesion</servlet-name>
+		<servlet-class>pw2.SalirSesion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SalirSesion</servlet-name>
+		<url-pattern>/salirSesion</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>SaveHospedaje</servlet-name>
+		<servlet-class>pw2.SaveHospedaje</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveHospedaje</servlet-name>
+		<url-pattern>/saveHospedaje</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>SavePaquete</servlet-name>
+		<servlet-class>pw2.SavePaquete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SavePaquete</servlet-name>
+		<url-pattern>/savePaquete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BorrarHospedaje</servlet-name>
+		<servlet-class>pw2.BorrarHospedaje</servlet-class>
+	</servlet> 
+	<servlet-mapping>
+		<servlet-name>BorrarHospedaje</servlet-name>
+		<url-pattern>/borrarHospedaje</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SaveImagenHospedaje</servlet-name>
+		<servlet-class>pw2.SaveImagenHospedaje</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveImagenHospedaje</servlet-name>
+		<url-pattern>/saveImagenHospedaje</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SaveImagenUsuario</servlet-name>
+		<servlet-class>pw2.SaveImagenUsuario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveImagenUsuario</servlet-name>
+		<url-pattern>/saveImagenUsuario</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SaveImagenPaquete</servlet-name>
+		<servlet-class>pw2.SaveImagenPaquete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveImagenPaquete</servlet-name>
+		<url-pattern>/saveImagenPaquete</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>MostrarImagen</servlet-name>
+		<servlet-class>pw2.MostrarImagen</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MostrarImagen</servlet-name>
+		<url-pattern>/mostrarImagen</url-pattern>
+	
+	</servlet-mapping>
+	
+		<welcome-file-list>
+		<welcome-file>WEB-INF/jsp/index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

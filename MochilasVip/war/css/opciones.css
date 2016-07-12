@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+.boton {
+	display:inline-block;
+	border-radius:10px;
+	color: white;
+	background-color: #004040;
+	width: 15%;
+	height:10%;
+	margin: auto;
+	text-align:center;
+	margin-top: 1em;
+}
+
+.boton:hover {
+	background-color: white;
+	color: #800000;
+    |
+}

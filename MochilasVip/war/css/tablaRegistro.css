@@ -1,0 +1,97 @@
+@CHARSET "UTF-8";
+*{
+	margin:auto;
+}
+.Table{
+	font-family: Comic Sans MS;
+	font-size:100%;
+	display:table;
+	text-align:center;
+	margin:auto;
+	max-width: 100%;
+	margin-top:20% auto;
+}
+img.img{
+	width:300px;
+	height: 180px;
+	border-radius:8px;
+	text-align: center;
+}
+
+.Title {
+	background:#916030;
+	text-align: center;
+	font-weight: bold;
+	color:white;
+	margin:2em auto;
+	border:5px solid white;
+	font-size: larger;
+	border-radius:7px;
+	width: 50%;
+}
+.Heading {
+	display: table-row;
+	font-weight: bold;
+	text-align: center;
+}
+.Cell1 {
+	background:#916030;
+	color:white;
+	display: table-cell;
+	border:none;
+	padding:5px auto;
+	width:300px;
+	border-radius:8px;
+	vertical-align:middle;
+	border-width: thin;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.Cell2{
+	background:#916030;
+	color:white;
+	display: table-cell;
+	border:none;
+	max-width:400px;
+	
+	vertical-align:middle;
+	border:2px solid white ;
+	border-width: thin;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.contecell{
+	height:200px;
+	width:400px;
+	display:table;
+	vertical-align:middle;
+}
+.Heading {
+	display: table-row;
+	font-weight: bold;
+	vertical-align:middle;
+	max-width:400px;
+
+}
+.datos {
+	background:#916030;
+	color:white;
+	width:30px;
+	height:25px;
+	vertical-align:middle;
+	display: table-cell;
+	max-width:400px;
+	border:none;
+	bottom :50%;
+
+	border-width: thin;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+textarea{
+	background:#916030;
+	color:white;
+	font-size: 12px;
+	font-family: Comic Sans MS;
+	border:none; 
+}

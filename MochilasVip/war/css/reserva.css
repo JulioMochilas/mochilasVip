@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+body{
+	font-family: Comic Sans MS, Arial;
+}
+#cero{
+	background: #51401c;
+	border-radius:2em;
+	border:5px solid white;
+	margin: 5em auto;
+	max-width:35%;
+	padding:2em ;
+	text-align: center;
+	color:white; 
+}
+#formulario{
+	display:table;
+	text-align:center;
+	margin:auto;	
+}
+.row {
+	display: table-row;
+	font-weight: bold;
+	text-align:center;
+}
+
+div#calumna1,div#columna2 {
+	color:white;
+	display: table-cell;
+	border:none;
+	border-radius:8px;
+	border-width: thin;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:left;
+}
+input[type=submit]{
+	padding:1em;
+	font-size:15px;
+	background:#b9913e;
+	border:none;
+	color:white;
+	font-family:arial black;
+	border-radius:4px;
+	text-decoration:none;
+	float:left;
+	width:100%;
+	font-family: Comic Sans MS, Arial;
+}
+input[type=submit]:hover{
+	background:blue;
+	
+	
+}

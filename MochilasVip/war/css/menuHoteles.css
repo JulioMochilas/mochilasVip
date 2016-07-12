@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+.lista-hoteles{
+	width: 90%;
+	margin:0 auto;
+	border:1px solid white;
+	min-height: 220px;
+	}
+.lista-hoteles .img{
+	width: 30%;
+	height:200px;
+	margin:10px;
+	border:1px solid white;
+	float: right;
+}
+.lista-hoteles .nombre{
+	text-align:center;
+	width:25%;
+	padding: 10px;
+	
+	
+}
+.l{
+	float:left;
+	display: block;
+}
+.lista-hoteles .tipo{
+	text-align:center;
+	width:25%;
+	padding: 10px;
+	
+	
+}
+.hoteles-img{
+	width: 100%;
+	height: 100%;
+}
+
+.lista-hoteles .descripcion{
+	text-align:center;
+	width:60%;
+	padding: 10px;
+	
+	
+}
+.lista-hoteles .precio{
+	text-align:center;
+	width:25%;
+	padding: 10px;
+	
+	
+}

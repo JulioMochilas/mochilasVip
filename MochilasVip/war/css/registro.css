@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+body{
+	font-family: Comic Sans MS, Arial;
+	
+}
+
+div#cero{
+	background: #51401c;
+	border-radius:2em;
+	margin: 2.5em auto;
+	padding:2em ;
+	text-align: center;
+	color:white; 
+	border:5px solid white;
+	width: 500px;
+	opacity:0.9;
+}
+.table{
+	display:table;
+	text-align:center;
+	margin:auto;	
+}
+.row {
+	display: table-row;
+	font-weight: bold;
+	text-align:center;
+}
+
+.cell {
+	color:white;
+	display: table-cell;
+	border:none;
+	border-radius:8px;
+	border-width: thin;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:left;
+}
+
+input[type=text],input[type=password]{
+	margin:0 0 1em 0;
+	width:200px;
+	border:none;
+	padding:1em;
+	border-radius:6px;
+}
+input[type=submit]{
+	padding:1em;
+	font-size:15px;
+	background:#004040;
+	border:none;
+	color:white;
+	font-family:arial black;
+	border-radius:4px;
+	text-decoration:none;
+	float:left;
+	width:100%;
+	font-family: Comic Sans MS, Arial;
+}
+input[type=submit]:hover{
+	background:blue;
+
+}

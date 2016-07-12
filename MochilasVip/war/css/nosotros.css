@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+#cuerpoNosotros{
+	display:table;
+	text-align:center;
+	margin:auto;	
+	font-size:1.3em;
+	margin:1em;
+}
+#cell {
+	color:white;
+	display: table-cell;
+	border:none;
+	border-radius:8px;
+	border-width: thin;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+#row1{
+	padding-top: 1.5em auto;
+	
+}
+h2{
+	text-align:center;
+}

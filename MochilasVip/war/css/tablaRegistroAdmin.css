@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+*{
+	margin-top:15px;
+}
+body{
+	font-family:arial ;
+	font-size:70%;
+}
+.Table{
+	display:table;
+	text-align:center;
+	margin:auto;
+	max-width: 100%;
+}
+img.img{
+	width:200px;
+	height: 200px;
+	border-radius:8px;
+}
+
+.Title {
+	background:#916030;
+	display: table-caption;
+	text-align: center;
+	font-weight: bold;
+	color:white;
+	border:5px solid white;
+	font-size: larger;
+	border-radius:7px;
+	
+}
+.Heading {
+	display: table-row;
+	font-weight: bold;
+	text-align: center;
+	text-align:justify;
+}
+.Cell {
+	background:#de8439;
+	color:white;
+	display: table-cell;
+	border:none;
+	text-align:justify;
+	border:2px solid white ;
+	border-width: thin;
+	padding-left: 10px;
+	padding-right: 10px;
+}
